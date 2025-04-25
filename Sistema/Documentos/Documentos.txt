@@ -1,0 +1,53 @@
+﻿DOCUMENTAÇÃO
+=========================================
+Campos para FrmProdutos
+IdProdutos
+Produto
+NumeroSerie
+ValorCompra
+Quantidade
+MargemLucro
+Observacao
+===========================================
+Campos para FrmEmpresa
+IdEmpresa
+RazaoSocial
+NomeFantasia
+CNPJ
+InscricaoEstadual
+TelefoneEmpresa
+EnderecoEmpresa
+TelefoneEmpresa
+Número
+Bairro
+Cidade
+Estado
+CEP
+TipoFornecedor
+Segmento
+RegimeTributario
+TipoCobranca
+DadosBancarios
+Observacao
+==========================================
+NomeContato
+CPFContato
+TelefoneContato
+
+==========================================
+Campos para FrmClientes
+IdCliente
+Cliente
+CPF
+RG
+EstadoCivil
+Data de Nascimento
+Endereco
+Número
+Bairro
+Cidade
+Estado
+CEP
+Telefone1, Telefone2
+Referências
+Observaçao
