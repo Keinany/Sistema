@@ -3,7 +3,7 @@
 Campos para FrmProdutos
 IdProdutos
 Produto
-NumeroSerie
+NúmeroSerie
 ValorCompra
 Quantidade
 MargemLucro
@@ -27,7 +27,7 @@ TipoFornecedor
 Segmento
 RegimeTributario
 TipoCobranca
-DadosBancarios
+DadosBancários
 Observacao
 ==========================================
 NomeContato
@@ -50,4 +50,4 @@ Estado
 CEP
 Telefone1, Telefone2
 Referências
-Observaçao
+Observação
