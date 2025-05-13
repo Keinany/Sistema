@@ -33,9 +33,11 @@
             clientesToolStripMenuItem = new ToolStripMenuItem();
             empresasToolStripMenuItem = new ToolStripMenuItem();
             sairToolStripMenuItem = new ToolStripMenuItem();
+            sairToolStripMenuItem1 = new ToolStripMenuItem();
             relatóriosToolStripMenuItem = new ToolStripMenuItem();
             clientesToolStripMenuItem1 = new ToolStripMenuItem();
             toolStripMenuItem2 = new ToolStripMenuItem();
+            produtosToolStripMenuItem = new ToolStripMenuItem();
             ajudaToolStripMenuItem = new ToolStripMenuItem();
             sobreToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
@@ -52,7 +54,7 @@
             // 
             // cadastroToolStripMenuItem
             // 
-            cadastroToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { clientesToolStripMenuItem, empresasToolStripMenuItem, sairToolStripMenuItem });
+            cadastroToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { clientesToolStripMenuItem, empresasToolStripMenuItem, sairToolStripMenuItem, sairToolStripMenuItem1 });
             cadastroToolStripMenuItem.Name = "cadastroToolStripMenuItem";
             cadastroToolStripMenuItem.Size = new Size(71, 20);
             cadastroToolStripMenuItem.Text = "&Cadastros";
@@ -62,22 +64,31 @@
             clientesToolStripMenuItem.Name = "clientesToolStripMenuItem";
             clientesToolStripMenuItem.Size = new Size(180, 22);
             clientesToolStripMenuItem.Text = "C&lientes";
+            clientesToolStripMenuItem.Click += clientesToolStripMenuItem_Click;
             // 
             // empresasToolStripMenuItem
             // 
             empresasToolStripMenuItem.Name = "empresasToolStripMenuItem";
             empresasToolStripMenuItem.Size = new Size(180, 22);
             empresasToolStripMenuItem.Text = "&Empresas";
+            empresasToolStripMenuItem.Click += empresasToolStripMenuItem_Click;
             // 
             // sairToolStripMenuItem
             // 
             sairToolStripMenuItem.Name = "sairToolStripMenuItem";
             sairToolStripMenuItem.Size = new Size(180, 22);
-            sairToolStripMenuItem.Text = "&Sair";
+            sairToolStripMenuItem.Text = "&Produtos";
+            sairToolStripMenuItem.Click += sairToolStripMenuItem_Click;
+            // 
+            // sairToolStripMenuItem1
+            // 
+            sairToolStripMenuItem1.Name = "sairToolStripMenuItem1";
+            sairToolStripMenuItem1.Size = new Size(180, 22);
+            sairToolStripMenuItem1.Text = "&Sair";
             // 
             // relatóriosToolStripMenuItem
             // 
-            relatóriosToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { clientesToolStripMenuItem1, toolStripMenuItem2 });
+            relatóriosToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { clientesToolStripMenuItem1, toolStripMenuItem2, produtosToolStripMenuItem });
             relatóriosToolStripMenuItem.Name = "relatóriosToolStripMenuItem";
             relatóriosToolStripMenuItem.Size = new Size(71, 20);
             relatóriosToolStripMenuItem.Text = "&Relatórios";
@@ -85,14 +96,20 @@
             // clientesToolStripMenuItem1
             // 
             clientesToolStripMenuItem1.Name = "clientesToolStripMenuItem1";
-            clientesToolStripMenuItem1.Size = new Size(180, 22);
+            clientesToolStripMenuItem1.Size = new Size(124, 22);
             clientesToolStripMenuItem1.Text = "&Clientes";
             // 
             // toolStripMenuItem2
             // 
             toolStripMenuItem2.Name = "toolStripMenuItem2";
-            toolStripMenuItem2.Size = new Size(180, 22);
+            toolStripMenuItem2.Size = new Size(124, 22);
             toolStripMenuItem2.Text = "&Empresas";
+            // 
+            // produtosToolStripMenuItem
+            // 
+            produtosToolStripMenuItem.Name = "produtosToolStripMenuItem";
+            produtosToolStripMenuItem.Size = new Size(124, 22);
+            produtosToolStripMenuItem.Text = "&Produtos";
             // 
             // ajudaToolStripMenuItem
             // 
@@ -104,7 +121,7 @@
             // sobreToolStripMenuItem
             // 
             sobreToolStripMenuItem.Name = "sobreToolStripMenuItem";
-            sobreToolStripMenuItem.Size = new Size(180, 22);
+            sobreToolStripMenuItem.Size = new Size(104, 22);
             sobreToolStripMenuItem.Text = "&Sobre";
             // 
             // FrmPrincipal
@@ -136,5 +153,7 @@
         private ToolStripMenuItem toolStripMenuItem2;
         private ToolStripMenuItem ajudaToolStripMenuItem;
         private ToolStripMenuItem sobreToolStripMenuItem;
+        private ToolStripMenuItem sairToolStripMenuItem1;
+        private ToolStripMenuItem produtosToolStripMenuItem;
     }
 }

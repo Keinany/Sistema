@@ -15,7 +15,7 @@ namespace Sistema.Modelos
         private string CNPJ { get; set;}
         private string IncricaoEstadual { get; set;}
         private string TelefoneEmpresa { get; set;}
-        private string CeleularEmpresa { get; set;}
+        private string CelularEmpresa { get; set;}
         private string EnderecoEmpresa { get; set;}
         private string Numero { get; set;}
         private string Bairro { get; set;}
