@@ -130,6 +130,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(909, 519);
             Controls.Add(menuStrip1);
+            IsMdiContainer = true;
             MainMenuStrip = menuStrip1;
             Name = "FrmPrincipal";
             StartPosition = FormStartPosition.CenterScreen;
